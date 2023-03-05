@@ -4,6 +4,7 @@ import Contact from "../components/Contact"
 import Footer from "../components/Footer"
 import Projects from "../components/Projects"
 import Skills from "../components/Skills"
+import GoogleMap from "../components/GoogleMaps.jsx";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
      <Skills/> 
      <Projects/>
      <Contact/>
+    {/*<GoogleMap/>*/}
      <Footer/>
     </>
   )

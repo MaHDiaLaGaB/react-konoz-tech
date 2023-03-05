@@ -51,7 +51,7 @@ function Projects() {
   return (
     <>
       <div id="projects" className="projects  bg-[#171717] text-white py-10">
-        <h1 className="text-center text-4xl font-bold py-6">Projects</h1>
+        <h1 className="text-center text-4xl font-bold py-6">Our Services</h1>
         <p className="text-center max-w-[1000px] lg:px-6 mx-auto text-[#939191]">
           lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur,
           cupiditate! Molestiae placeat architecto nihil obcaecati illum minima
@@ -65,7 +65,7 @@ function Projects() {
               durum == 1 ? "bg-[linear-gradient(90deg,#b004b0,#38097a)]" : ""
             }`}
           >
-            Projects
+            Services
           </button>
           <button
             onClick={() => setDurum(2)}

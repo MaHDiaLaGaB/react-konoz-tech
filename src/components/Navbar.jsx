@@ -26,22 +26,22 @@ function Navbar() {
   return (
     <>
       <div className="navbarcon flex justify-between items-center px-20 py-6 bg-transparent z-40 text-white lg:px-6 fixed w-full">
-        <h1 className="text-4xl  font-bold ">Reayhs</h1>
+        <h1 className="text-2xl  font-bold ">Konoz</h1>
 
         <nav
           className={` flex justify-center items-center gap-x-10 ${
             durum && "lg:hidden"
           } lg:fixed lg:top-0 -z-20  lg:flex-col lg:w-full lg:bg-[#171717]  lg:h-[450px] lg:left-0 h-full lg:items-start  lg:pl-6  cursor-pointer lg:pt-20`}
         >
-          <ul className=" flex gap-10 text-3xl mr-4 lg:flex-col lg:gap-6 ">
+          <ul className=" flex gap-10 text-xl mr-4 lg:flex-col lg:gap-6 ">
             <li className="bla">
               <AnchorLink href="#home">Home</AnchorLink>
             </li>
             <li className="bla">
-              <AnchorLink href="#skills">Skills</AnchorLink>
+              <AnchorLink href="#skills">Brands</AnchorLink>
             </li>
             <li className="bla">
-              <AnchorLink href="#projects">Projects</AnchorLink>
+              <AnchorLink href="#projects">Services</AnchorLink>
             </li>
           </ul>
 
@@ -62,7 +62,7 @@ function Navbar() {
           </div>
           <div className="btn">
             <button className="border-[1px] border-white border-solid py-2 px-4 hover:bg-white hover:text-black font-bold">
-              Let's Connect
+              <AnchorLink href="#contact">Let's Connect</AnchorLink>
             </button>
           </div>
         </nav>
